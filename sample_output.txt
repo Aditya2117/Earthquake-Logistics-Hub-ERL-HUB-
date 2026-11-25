@@ -1,0 +1,51 @@
+==============================================================
+ POST-EARTHQUAKE EMERGENCY RELIEF LOGISTICS HUB (ERL-HUB)
+==============================================================
+[COMMAND OVERRIDE] MED-202 reserve set to 90%
+[URGENT MEDICAL] Trauma response prioritized.
+
+PRIORITY DISPATCH SCHEDULE
+MISSION           DESTINATION       PRIORITY  DISTANCE    
+Trauma response   City Hospital     1         18          
+Water distributionSector 8          2         12          
+Shelter support   Village Camp      3         24          
+Flooded settlementRiver Colony      4         16          
+Ground convoy TRK-101 route North corridor approved; ETA 24.0 minutes
+Manifest TRK-101 (Ground convoy) - 1 item(s), 20.0 kg
+  Trauma Medicine: 40 units
+Dispatch completed and saved to binary transit log.
+Aerial transport MED-202 route East corridor approved; ETA 4.8 minutes
+Manifest MED-202 (Aerial transport) - 1 item(s), 150.0 kg
+  Clean Water: 30 units
+Dispatch completed and saved to binary transit log.
+Search-and-rescue drone DRN-303 route Village access road approved; ETA 22.2 minutes
+Manifest DRN-303 (Search-and-rescue drone) - 1 item(s), 5.0 kg
+  Thermal Blankets: 5 units
+Dispatch completed and saved to binary transit log.
+Amphibious medical hybrid AMP-404 route Damaged river road approved; ETA 27.4 minutes
+Manifest AMP-404 (Amphibious medical hybrid) - 1 item(s), 500.0 kg
+  Clean Water: 100 units
+Dispatch completed and saved to binary transit log.
+Depot identity check (same depot): different
+Dynamic manifest deep-copy check: 1 item(s) copied
+Stream extraction test: restored Audit Box (3 units)
+
+DEPOT: Ghaziabad Regional Relief Depot
+Cargo                 Category           Units          Kg
+Thermal Blankets      Shelter              245       245.0
+Clean Water           Water                170       850.0
+Trauma Medicine       Medical               80        40.0
+Ration Kits           Food                 508      1016.0
+
+NETWORK ANALYTICS
+Operational vehicles: 4
+Total dispatched: 0.7 tonnes
+
+RESTORED TRANSIT / MANIFEST AUDIT RECORDS
+Trauma response|City Hospital|TRK-101|20|1|Trauma Medicine:40;
+Water distribution|Sector 8|MED-202|150|2|Clean Water:30;
+Shelter support|Village Camp|DRN-303|5|3|Thermal Blankets:5;
+Flooded settlement|River Colony|AMP-404|500|4|Clean Water:100;
+
+Transit records are stored in transit_log.bin in the program directory.
+ERL-HUB session finished.
